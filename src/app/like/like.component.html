@@ -1,0 +1,7 @@
+<span [class.highlighted]="isLiked"
+    (click)="onClick()"
+    >
+    <i *ngIf="!isLiked" class="far fa-thumbs-up fa-3x"></i>
+    <i *ngIf="isLiked" class="fas fa-thumbs-up fa-3x"></i>
+</span>
+<span>{{likesCount}}</span>

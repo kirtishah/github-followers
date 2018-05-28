@@ -2,3 +2,13 @@
 .media { 
     margin-bottom: 30px;
 }
+
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+a{
+    padding: 5px;
+}

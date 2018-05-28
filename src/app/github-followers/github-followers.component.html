@@ -3,6 +3,8 @@
     <h4 class="media-heading">
       <a [routerLink]="['/followers', follower.id, follower.login]">{{ follower.login }}</a>
     </h4>
+    <img class="mr-3" src="{{follower.avatar_url}}" />
     <a href="{{ follower.html_url }}">{{ follower.html_url }}</a>
+    <like></like>
   </div>
 </div>

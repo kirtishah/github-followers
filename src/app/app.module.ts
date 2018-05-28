@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GithubFollowersComponent } from './github-followers/github-followers.component';
+import { LikeComponent } from './like/like.component';
 
 import { GithubFollowersService } from './github-followers/github-followers.service';
 
@@ -17,7 +18,8 @@ import { GithubFollowersService } from './github-followers/github-followers.serv
     HomeComponent,
     GithubFollowersComponent,
     AboutComponent,
-    NavbarComponent
+    NavbarComponent,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
