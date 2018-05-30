@@ -6,13 +6,16 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./like.component.css']
 })
 export class LikeComponent {
-   likesCount: number = 0;
-   isLiked: boolean = false;
+  likesCount: number = 0;
+  disLikesCount: number = 0;
 
 
-  onClick() {
-    this.likesCount += (this.isLiked) ? -1 : 1;
-    this.isLiked = !this.isLiked;
+  like() {
+    this.likesCount += 1;
+  }
+
+  dislike() {
+    this.disLikesCount += 1;
   }
 
 }
